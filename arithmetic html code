@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>arithmetic operations</title>
+    <script src="arithmetic.js"></script>
+</head>
+<body>
+    <div id="center">
+        <div id="b1"><h1>My Simple Calculator</h1></div><hr>
+        <h2>Enter the Number</h2>
+        <input type="number" id="num1">
+        <br/>
+        <input type="number" id="num2">
+        <br/><hr>
+        <h3>ADDITION:</h3>
+        <button id="b1" type="button" onclick="add()">+</button>
+        <p id="button1" placeholder="ans" class="add"></p><hr>
+        <h4>SUBSTRACTION</h4>
+        <button id="B2" type="button" onclick="sub()">-</button>
+        <p id="button2" placeholder="ans" class="sub"></p><hr>
+        <h5>MULTIPLICATION</h5>
+        <button id="b3" type="button" onclick="mul()">*</button>
+        <p id="button3" placeholder="ans" class="mul"></p><hr>
+        <h6>DIVISION</h6>
+        <button id="b4" type="button" onclick="div()">/</button>
+        <p id="button4" placeholder="ans" class="div"></p><hr>
+        <h7>MODULUS</h7>
+        <button id="b5" type="button" onclick="mod()">%</button>
+        <p id="button5" placeholder="ans" class="mod"></p><hr>
+    </div>
+    
+</body>
+</html>
